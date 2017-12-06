@@ -1,0 +1,8 @@
+molecule==2.5.0
+
+ansible-lint==3.4.17
+yamllint==1.8.1
+
+docker-py==1.10.6
+
+cryptography>=1.5
