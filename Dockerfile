@@ -2,7 +2,6 @@ FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y python python-pip \
     libssl-dev libffi-dev rsync openssh-client zip curl jq tree git \
-    python-openstackclient \
     apt-transport-https \
     ca-certificates \
     software-properties-common
