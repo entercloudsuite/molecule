@@ -6,3 +6,5 @@ yamllint==1.8.1
 docker-py==1.10.6
 
 cryptography>=1.5
+
+shade==1.26.0
