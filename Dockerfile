@@ -19,8 +19,6 @@ COPY requirements.txt /tmp/requirements.txt
 
 RUN pip install -r /tmp/requirements.txt
 
-# Fix https://github.com/metacloud/molecule/issues/972
-RUN apt-get --auto-remove --yes remove python-openssl
 RUN pip install pyOpenSSL
 
 ENTRYPOINT ["/bin/bash"]
