@@ -1,4 +1,4 @@
-molecule==2.6.0
+molecule==2.10.1
 
 ansible-lint==3.4.17
 yamllint==1.8.1
